@@ -1,5 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
+}
+
+.bg-custom-gradient {
+  background: linear-gradient(to bottom, #002, #002, #002, #002, #002, #e9f0c9); /* Exemplo de cores de gradiente */
 }
 
 .App-logo {
@@ -35,4 +43,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Para garantir que fique acima de outros elementos */
 }
