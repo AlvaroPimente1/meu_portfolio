@@ -22,7 +22,7 @@ function App() {
       <Tecnologias/>
       <Projetos ref={projetosRef}/>
       <Contato/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

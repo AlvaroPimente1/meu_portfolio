@@ -12,10 +12,10 @@ function NavBar({ scrollToSection, sobreRef, projetosRef }) {
                     </div>
                     <div></div>
                     <div className='flex space-x-8'> 
-                        <p className='hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(sobreRef)}>Sobre</p>
-                        <p className='hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(sobreRef)}>Tecnologias</p>
-                        <p className='hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(projetosRef)}>Projetos</p>
-                        <p className='hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(sobreRef)}>Contato</p>
+                        <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(sobreRef)}>Sobre</p>
+                        <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(sobreRef)}>Tecnologias</p>
+                        <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(projetosRef)}>Projetos</p>
+                        <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(sobreRef)}>Contato</p>
                     </div>
                 </div>
             </header>
