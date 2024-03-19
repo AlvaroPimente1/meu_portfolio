@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 function Contato() {
     function sendEmail(e) {
         e.preventDefault();
-        emailjs.sendForm('service_zyixjhj', 'template_d67ptxf', e.target, 'user_BLg80uyyFXNabuj2m8IGP')
+        emailjs.sendForm('service_zyixjhj', 'template_d67ptxf', e.target, '')
 
         .then((result) => {
             alert("Mensagem enviada com sucesso! 👍");

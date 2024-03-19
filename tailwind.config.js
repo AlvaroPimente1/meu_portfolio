@@ -7,6 +7,9 @@ module.exports = {
         'custom-blue': '#002',
         'custom-light-green': '#e9f0c9'
       },
+      animation: {
+        scaleUpDown: 'scaleUpDown 3s ease-in-out infinite',
+      }
     },
   },
   variants: {

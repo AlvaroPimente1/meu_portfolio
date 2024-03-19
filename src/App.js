@@ -16,12 +16,11 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='bg-custom-blue'>
       <NavBar scrollToSection={scrollToSection} sobreRef={sobreRef} projetosRef={projetosRef}/>
-      <Sobre ref={sobreRef}/>
-      <Tecnologias/>
-      <Projetos ref={projetosRef}/>
-      <Contato/>
+      <Sobre forwardedRef={sobreRef}/>
+      {/* <Tecnologias/> */}
+      <Projetos forwardedRef={projetosRef}/>
       <Footer/>
     </div>
   );
