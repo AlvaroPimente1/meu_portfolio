@@ -28,7 +28,7 @@ function Sobre({ forwardedRef }) {
                         {/* <img src={perfil} className='w-60 h-60 rounded-full border-2 border-custom-light-green'/> */}
                         <Carousel images={images}/>
                     </div>
-                    <div className="max-w-xl text-left">
+                    <div className="max-w-xl text-left m-3">
                         <h1 className='text-white overflow-hidden border-r-2 border-white whitespace-nowrap typewriter text-2xl'>
                             Olá, Sou Alvaro Pimentel
                         </h1>
