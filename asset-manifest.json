@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/meu_portfolio/static/css/main.62861e01.css",
+    "main.js": "/meu_portfolio/static/js/main.0d3d2761.js",
+    "static/js/453.1d859bbb.chunk.js": "/meu_portfolio/static/js/453.1d859bbb.chunk.js",
+    "static/media/perfil3.jpeg": "/meu_portfolio/static/media/perfil3.c5ede303d5f826737830.jpeg",
+    "static/media/perfil2.jpeg": "/meu_portfolio/static/media/perfil2.f6b5f489b2cfe8aeb17b.jpeg",
+    "static/media/perfil4.jpeg": "/meu_portfolio/static/media/perfil4.a6f6d53164012f2363ca.jpeg",
+    "static/media/perfil5.jpeg": "/meu_portfolio/static/media/perfil5.49a3e51d4a858b599813.jpeg",
+    "static/media/IlustracaoDev.png": "/meu_portfolio/static/media/IlustracaoDev.6ff4e137726677dceeac.png",
+    "static/media/fotoPerfil.jpeg": "/meu_portfolio/static/media/fotoPerfil.e848a29ce664d5dc4ffb.jpeg",
+    "static/media/logoIot.png": "/meu_portfolio/static/media/logoIot.b28f379fa029b9979afb.png",
+    "static/media/logoKanye.jpeg": "/meu_portfolio/static/media/logoKanye.ca218cd3ed400e4bdfa9.jpeg",
+    "static/media/lovetwin.png": "/meu_portfolio/static/media/lovetwin.0ba7d23b245ffbff2474.png",
+    "static/media/BanCotijuba_3.png": "/meu_portfolio/static/media/BanCotijuba_3.179304d7457d0c8d5a93.png",
+    "index.html": "/meu_portfolio/index.html",
+    "main.62861e01.css.map": "/meu_portfolio/static/css/main.62861e01.css.map",
+    "main.0d3d2761.js.map": "/meu_portfolio/static/js/main.0d3d2761.js.map",
+    "453.1d859bbb.chunk.js.map": "/meu_portfolio/static/js/453.1d859bbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62861e01.css",
+    "static/js/main.0d3d2761.js"
+  ]
+}
