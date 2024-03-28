@@ -18,7 +18,7 @@ function Contato({ forwardedRef }) {
 
     return (
         <div ref={forwardedRef} className='bg-custom-blue items-center h-max'>
-            <div>
+            <div className='text-center'>
                 <p className='text-white'>teste</p>
             </div>
         </div>

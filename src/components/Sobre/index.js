@@ -20,7 +20,7 @@ function Sobre({ forwardedRef }) {
     return (
         <div ref={forwardedRef} className='items-center h-screen flex'>
             <div className='hidden md:flex bg-custom-light-green h-screen items-center justify-center w-2/5'> 
-                <img src={ilustracao} className='w-80 h-80 animate-scaleUpDown'/>
+                <img src={ilustracao} className='w-80 h-80 animate-scaleUpDown p-4'/>
             </div>
             <div className='flex flex-1 bg-custom-blue justify-center items-center py-48 '> 
                 <div className='text-center flex flex-col items-center'>
