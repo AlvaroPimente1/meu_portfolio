@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import '../../App.css';
 import { FaCode } from 'react-icons/fa';
 
@@ -11,11 +12,11 @@ function NavBar({ scrollToSection, sobreRef, projetosRef, contatoRef }) {
                         <p className='text-xl'>Alvaro Pimentel</p>
                     </div>
                     <div></div>
-                    <div className='flex space-x-8'> 
+                    <div className='flex space-x-1 xs:space-x-3 sm:space-x-5 md:space-x-4 lg:space-x-8 xl:space-x-12'> 
                         <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(sobreRef)}>Sobre</p>
                         {/* <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(sobreRef)}>Conhecimentos</p> */}
                         <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(projetosRef)}>Projetos</p>
-                        <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(contatoRef)}>Contato</p>
+                        {/* <p className='nav-item hover:text-custom-light-green cursor-pointer text-white' onClick={() => scrollToSection(contatoRef)}>Contato</p> */}
                     </div>
                 </div>
             </header>
