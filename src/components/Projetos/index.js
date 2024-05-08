@@ -15,7 +15,7 @@ function Projetos({ forwardedRef }) {
                         <img src={repo.logo} className='w-32 h-32 md:w-40 md:h-40 rounded-xl'/>
                         <p className='text-xl text-white'>{repo.nome}</p>
                         <p className='text-white'>{repo.descricao}</p>
-                        <a className='text-sm text-custom-light-green' href={repo.url} target='_blank' rel="noopener noreferrer">Saiba mais</a>
+                        <a className='text-sm text-custom-light-green' href={repo.url} target='_blank' rel="noopener noreferrer">{repo.nome == 'Book-Buddy' ? 'Visite o sistema' : 'Visite Respositório'}</a>
                     </div>
                 ))}
             </div>

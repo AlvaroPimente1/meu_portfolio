@@ -21,9 +21,9 @@ const projetos = [
     
     {
         logo: logoBook,
-        nome: 'Book-Budy',
-        descricao: 'Sitema de gerenciamento de leituras, anotações e nota para livros, em breve com gráficos de métricas do usuário e livros chamados via API Google Book. Feito com ReactJS, Tailwind e Firebase.',
-        url: 'https://gerenciador-livros-d84ec.web.app/'
+        nome: 'Book-Buddy',
+        descricao: 'Sitema de gerenciamento de leituras, conectado na API de livros do Google que permite fazer anotações e nota para livros, em breve com gráficos de métricas do usuário. Feito com ReactJS, Tailwind e Firebase.',
+        url: 'https://bookbuddy.com.br'
     },
 
     {
