@@ -4,7 +4,7 @@ import perfil from '../../assets/images/fotoPerfil.jpeg';
 import perfil2 from '../../assets/images/perfil2.jpeg';
 import perfil3 from '../../assets/images/perfil3.jpeg';
 import perfil4 from '../../assets/images/perfil4.jpeg';
-import curriculo from '../../assets/pdf/Curriculo_Alvaro.pdf';
+import curriculo from '../../assets/pdf/CurriculoAlvaro.pdf';
 import ilustracao from '../../assets/images/IlustracaoDev.png';
 import { FaLinkedin, FaGithub, FaFilePdf } from 'react-icons/fa'; 
 import Carousel from '../Carrosel';
