@@ -13,7 +13,6 @@ function Sobre({ forwardedRef }) {
     const images = [
         perfil4,
         perfil,
-        perfil2,
         perfil3,
     ];
 
